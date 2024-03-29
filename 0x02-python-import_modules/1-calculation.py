@@ -3,13 +3,13 @@ from calculator_1 import add, mul, sub, div
 a = 10
 b = 5
 added = add(a, b)
-print("{} + {} = {}".format(a, b,added))
+print(f"{a} + {b} = {added}")
 
 minus = sub(a, b)
-print("{} - {} = {}".format(a, b,minus))
+print(f"{a} - {b} = {minus}")
 
 pro = mul(a, b)
-print("{} * {} = {}".format(a, b, pro))
+print(f"{a} * {b} = {pro}")
 
 quo = div(a, b)
-print("{} / {} = {}".format(a, b, quo))
+print(f"{a} / {b} = {quo}")
