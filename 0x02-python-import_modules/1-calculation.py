@@ -1,15 +1,11 @@
 #!/usr/bin/python3
-from calculator_1 import add, mul, sub, div
-a = 10
-b = 5
-added = add(a, b)
-print(f"{a} + {b} = {added}")
+if __name__ == "__main__":
+    """prints the sum, difference, multiple and quotient of 10 and 5    """
+    from calculator_1 import add, mul, sub, div
+    a = 10
+    b = 5
 
-minus = sub(a, b)
-print(f"{a} - {b} = {minus}")
-
-pro = mul(a, b)
-print(f"{a} * {b} = {pro}")
-
-quo = div(a, b)
-print(f"{a} / {b} = {quo}")
+    print("{} + {} = {}".format(a, b, add(a, b)))
+    print("{} - {} = {}".format(a, b sub(a, b)))
+    print("{} * {} = {}".format(a, b, mul(a, b)))
+    print("{} / {} = {}".format(a, b, div(a, b)))
