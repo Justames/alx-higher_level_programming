@@ -1,4 +1,4 @@
-#!/usr/bin/pythton3
+#!/usr/bin/python3
 "no c or C"
 def no_c(my_string):
     new_string = ""
